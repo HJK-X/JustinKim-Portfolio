@@ -1,16 +1,39 @@
-// src/components/Home.js
 import React from 'react';
+import GitHubLatestRepo from './GitHubLatestRepo';
+import TopRepo from './TopRepo';
+import RepoCategories from './RepoCategories';
+
+const topRepositories = [
+  // Define your top repositories here
+  {
+    id: 1,
+    name: 'Repo 1',
+    description: 'Description for Repo 1',
+    url: 'https://github.com/user/repo1',
+    category: 'Web Development',
+  },
+  // Add more repositories
+];
 
 function Home() {
   return (
     <div className="home">
-      <header>
-        <h1>Your Name</h1>
-        <p>Web Developer | UI/UX Designer</p>
-      </header>
-      <section className="introduction">
-        <p>Welcome to my portfolio website. I create amazing web experiences.</p>
-      </section>
+      <GitHubLatestRepo />
+      
+      <h2>Top Repositories</h2>
+      <div className="top-repos">
+        {topRepositories.map(repo => (
+          <TopRepo
+            key={repo.id}
+            name={repo.name}
+            description={repo.description}
+            url={repo.url}
+          />
+        ))}
+      </div>
+      
+      <RepoCategories repositories={topRepositories} />
+      
       {/* Add more sections/content here */}
     </div>
   );
