@@ -10,7 +10,7 @@ const topRepositories = [
     name: 'Super AI Pets',
     description: 'Description for Repo 1',
     url: 'https://github.com/user/repo1',
-    category: 'Web Development',
+    category: 'Web Development',  
   },
   // Add more repositories
 ];
