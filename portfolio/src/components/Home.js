@@ -17,7 +17,7 @@ const topRepositories = [
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home">  
       <GitHubLatestRepo />
       
       <h2>Top Repositories</h2>

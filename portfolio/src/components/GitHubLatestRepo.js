@@ -22,7 +22,7 @@ function GitHubLatestRepo() {
 
   return (
     <div className="latest-repo">
-      <h2>Latest GitHub Repo</h2>
+      <h2>Latest Project:</h2>
       <p>{latestRepo.name}</p>
       <p>{latestRepo.description}</p>
       <a href={latestRepo.html_url} target="_blank" rel="noopener noreferrer">
