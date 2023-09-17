@@ -1,20 +1,89 @@
-/* src/components/Home.css */
+
+/* Style for the entire homepage */
 .home {
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  h1 {
-    font-size: 2rem;
-  }
-  
-  .introduction {
-    margin-top: 2rem;
-    font-size: 1.2rem;
-  }
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the header section */
+.home header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style for the latest GitHub repo */
+.latest-repo {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the top repositories section */
+.top-repos {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.top-repo {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the categories section */
+.repo-categories {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.repo-categories h2 {
+  font-size: 1.5rem;
+}
+
+.repo-categories ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.repo-categories li {
+  margin: 0 10px;
+}
+
+.repo-categories button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.repo-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.repo-list div {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import GitHubLatestRepo from './GitHubLatestRepo';
 import TopRepo from './TopRepo';
 import RepoCategories from './RepoCategories';
+import './Home.css';
 
 const topRepositories = [
   // Define your top repositories here
@@ -17,7 +18,7 @@ const topRepositories = [
 
 function Home() {
   return (
-    <div className="home">  
+    <div className="home">
       <GitHubLatestRepo />
       
       <h2>Top Repositories</h2>
