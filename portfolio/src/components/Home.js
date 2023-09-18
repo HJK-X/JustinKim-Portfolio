@@ -9,10 +9,18 @@ const topRepositories = [
   {
     id: 1,
     name: 'Super AI Pets',
-    description: 'Description for Repo 1',
-    url: 'https://github.com/user/repo1',
-    category: 'Web Development',  
+    description: 'A reinforcement based learning algorithm for Super Auto Pets',
+    url: 'https://github.com/HJK-X/Super-Auto-Pets',
+    category: 'Deep Learning',  
   },
+
+  {
+    id: 2,
+    name: 'Password Manager',
+    description: 'Password manager',
+    url: 'https://github.com/HJK-X/password-manager',
+    category: 'Crytography',  
+  }
   // Add more repositories
 ];
 
