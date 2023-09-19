@@ -20,7 +20,17 @@ const topRepositories = [
     description: 'Password manager',
     url: 'https://github.com/HJK-X/password-manager',
     category: 'Crytography',  
+  },
+  
+  {
+    id: 3,
+    name: 'Portfolio Website',
+    description: 'My portfolio',
+    url: 'https://github.com/HJK-X/JustinKim-Portfolio',
+    category: 'Web Design',  
   }
+
+  
   // Add more repositories
 ];
 
