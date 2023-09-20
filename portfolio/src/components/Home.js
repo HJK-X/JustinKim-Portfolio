@@ -11,7 +11,7 @@ const topRepositories = [
     name: 'Super AI Pets',
     description: 'A reinforcement based learning algorithm for Super Auto Pets',
     url: 'https://github.com/HJK-X/Super-Auto-Pets',
-    category: 'Deep Learning',  
+    category: ['Deep Learning'],  
   },
 
   {
@@ -19,15 +19,21 @@ const topRepositories = [
     name: 'Password Manager',
     description: 'Password manager',
     url: 'https://github.com/HJK-X/password-manager',
-    category: 'Crytography',  
+    category: ['Crytography'],  
   },
-  
   {
     id: 3,
     name: 'Portfolio Website',
     description: 'My portfolio',
     url: 'https://github.com/HJK-X/JustinKim-Portfolio',
-    category: 'Web Design',  
+    category: ['Web Design'],  
+  },
+  {
+    id: 4,
+    name: 'ReCodeZ',
+    description: 'A beginner-friendly online development environment',
+    url: 'https://github.com/HJK-X/ReCodeZ',
+    category: ['Web Design', 'AWS'],  
   }
 
   
